@@ -96,31 +96,31 @@ INSERT INTO charity_events
 (1, 1, 'Annual Charity Gala Dinner 2026',
  'Join us for an elegant evening of fine dining, live entertainment, and inspiring stories as we raise funds to build schools in rural Australia. Black tie optional.',
  '2026-11-15 18:30:00', 'Sydney Convention Centre, Sydney NSW',
- 150.00, 50000.00, 12500.00, 'upcoming', NULL),
+ 150.00, 50000.00, 12500.00, 'upcoming', 'images/dinner1.jpg'),
 
 -- Event 2: upcoming (homepage)
 (2, 2, 'Green Earth Community Fun Run',
  'A 5km fun run through Centennial Park. Every entrant receives a t-shirt and medal. All proceeds go towards our reforestation projects.',
  '2026-10-25 07:00:00', 'Centennial Park, Sydney NSW',
- 35.00, 20000.00, 8200.00, 'upcoming', NULL),
+ 35.00, 20000.00, 8200.00, 'upcoming', 'images/run1.jpg'),
 
 -- Event 3: upcoming (homepage)
 (3, 3, 'Spring Charity Auction Night',
  'Bid on premium artworks, luxury getaways, and dining experiences. 100% of auction proceeds support our food delivery program for the elderly.',
  '2026-11-08 19:00:00', 'The Star Event Centre, Sydney NSW',
- 80.00, 30000.00, 5000.00, 'upcoming', NULL),
+ 80.00, 30000.00, 5000.00, 'upcoming', 'images/auction1.jpg'),
 
 -- Event 4: ongoing (homepage)
 (1, 5, 'Children Education Online Fundraiser',
  'A month-long online fundraising campaign. Donate directly and watch the progress tracker update in real time. Every dollar helps provide textbooks and scholarships.',
  '2026-10-01 00:00:00', 'Online (Australia-wide)',
- 10.00, 25000.00, 15800.00, 'ongoing', NULL),
+ 10.00, 25000.00, 15800.00, 'ongoing', 'images/online1.jpg'),
 
 -- Event 5: upcoming (homepage)
 (2, 4, 'Riverside Clean-up Volunteer Day',
  'Spend a morning helping clean up the Parramatta River. Gloves and bags provided. Morning tea included. Suitable for families and groups.',
  '2026-10-18 09:00:00', 'Parramatta Park, Parramatta NSW',
- 0.00, 5000.00, 1200.00, 'upcoming', NULL),
+ 0.00, 5000.00, 1200.00, 'upcoming', 'images/volunteer1.jpg'),
 
 -- Event 6: completed (hidden from homepage, searchable)
 (1, 1, 'Winter Charity Dinner 2026',
@@ -144,4 +144,4 @@ INSERT INTO charity_events
 (3, 5, 'Elderly Care Online Auction',
  'An online silent auction featuring homemade crafts, garden produce, and services donated by local businesses. All funds support our home-visit program.',
  '2026-11-01 00:00:00', 'Online (NSW region)',
- 5.00, 10000.00, 3400.00, 'upcoming', NULL);
+ 5.00, 10000.00, 3400.00, 'upcoming', 'images/online2.jpg');

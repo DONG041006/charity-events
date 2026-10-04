@@ -58,9 +58,13 @@ function renderEventCards(events, container) {
         const progress = event.target_amount > 0
             ? Math.round((event.raised_amount / event.target_amount) * 100)
             : 0;
+        const img = event.image_url
+            ? `<div class="card-image"><img src="${event.image_url}" alt="${event.title}" loading="lazy"></div>`
+            : '';
 
         html += `
             <div class="event-card card-animate" style="animation-delay: ${index * 90}ms;">
+                ${img}
                 <div class="card-body">
                     <div class="card-top">
                         <span class="card-category">${event.category_name}</span>
